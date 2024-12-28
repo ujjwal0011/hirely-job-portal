@@ -11,6 +11,7 @@ const store = configureStore({
     applications: applicationReducer,
     updateProfile: updateProfileReducer,
   },
+  devTools: null,
 });
 
 export default store;
